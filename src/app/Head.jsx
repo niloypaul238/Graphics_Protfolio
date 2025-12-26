@@ -27,7 +27,7 @@ const Head = () => {
                                     <span className='text-4xl'> <span className={nuniton.className}>HELLO I AM</span></span><p className='h-[2px] w-60 bg-gray-700 '></p>
                                 </div>
 
-                                <p className={ saira.className } ><span className='text-5xl'><span className='text-[#fd6e0a]'>MD. SHOHEL KHAN</span></span></p>
+                                <p className={ saira.className } ><span className='text-5xl'><span className='text-[#fd6e0a]'>NILOY PAUL</span></span></p>
                                 <p className='text-2xl '>FRONTEND DEVELOPER </p>
                                 <p className='text-gray-500'>I am a frontend developer based in Bangladesh, I will help you build beautiful websites your users will love.  </p>
                                 <button className='btnDsing2 flex items-center gap-x-2 w-60 justify-center'>See Resume <GoArrowRight /></button>

@@ -21,9 +21,9 @@ const Nav = () => {
                 <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-15  md:mt-0 md:border-0 md:bg-neutral-primary text-center sm:justify-center ">
                     <Link href={'/'} className={`text-lg ${pathName == "/" && 'text-amber-600'}`} >Home</Link>
                     <Link href={'/service'} className={`text-lg ${pathName == "/service" && 'text-amber-600'}`}>Services</Link>
-                    <Link href={'/contucts'} className={`text-lg ${pathName == "/contucts" && 'text-amber-600'}`}>Contuct</Link>
                     <Link href={'/projects'} className={`text-lg ${pathName == "/projects" && 'text-amber-600'}`}>Projects</Link>
                     <Link href={'/about'} className={`text-lg cursor-pointer ${pathName == "/about" && 'text-amber-600'}`}>About</Link>
+                    <Link href={'/contucts'} className={`text-lg ${pathName == "/contucts" && 'text-amber-600'}`}>Contuct</Link>
                     
                 </ul>
                 </div>
