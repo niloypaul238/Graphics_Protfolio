@@ -39,7 +39,9 @@ const Head = () => {
 
                     </div>
                 </div>
-                <div className='bg-[url(https://i.ibb.co.com/99Jb9QvL/578-5782721-technology-background-white-png-tech-background-image-for.png)] w-full h-full mt-20 flex flex-col justify-center items-center text-black'>
+
+
+                <div className='bg-[url(https://i.ibb.co.com/99Jb9QvL/578-5782721-technology-background-white-png-tech-background-image-for.png)] w-full h-full mt-0 flex flex-col justify-center items-center text-black'>
 
                     <div className='pt-10 md:pt-0 bg-[#fffffff5] h-full w-full flex leading-12 justify-center items-center relative flex-col'>
                         <div className='h-50 w-50 left-0 top-0 absolute bg-amber-500/50 z-10 rounded-full blur-3xl'></div>
@@ -53,7 +55,7 @@ const Head = () => {
                 </div>
 
                 <div className='w-10/12 mx-auto '>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-4'>
+                    <div className='grid grid-cols-1 mt-14 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-4'>
                         <div className='flex border rounded md:border-0 border-amber-600 py-4 flex-col gap-y-1.5 justify-center items-center'>
                             <img src="admin.svg" className='mb-2' alt="" />
                             <p className='text-5xl font-uniquifier'>434</p>
@@ -72,7 +74,7 @@ const Head = () => {
                     </div>
                 </div>
 
-                <div className='sm:grid w-10/12 mx-auto grid-cols-2 mt-50 items-center justify-between '>
+                <div className='sm:grid w-10/12 mx-auto grid-cols-2 mt-30 md:mt-10 items-center justify-between '>
                     <div>
                         <p className='text-2xl md:text-5xl'>Build amazing websites and landing pages with ease</p>
                         <button className='btnDsing mt-6'>Learn More ...</button>
