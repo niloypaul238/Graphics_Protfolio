@@ -27,7 +27,7 @@ const Work = () => {
 
                     {/* Left div */}
                     <div>
-                        <div className='flex gap-x-12'>
+                        <div className='sm:flex gap-x-12'>
                             <div className="flex flex-col   items-baseline gap-4">
                                 <h1 className="text-9xl font-bold font-uniquifier text-[#fd6e0a]">03</h1>
                                 <div className="text-lg -mt-5 tracking-[19px] font-medium text-gray-700">Years</div>

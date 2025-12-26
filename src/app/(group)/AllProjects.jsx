@@ -18,7 +18,7 @@ const AllProjects = () => {
             <div className="bg-black min-h-screen text-white px-6 py-14">
 
                 {/* Filter Buttons */}
-                <div className="flex justify-center gap-8 mb-12 text-sm uppercase tracking-widest">
+                <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-12 text-sm uppercase tracking-widest">
                     {filters.map(item => (
                         <button
                             key={item}
@@ -32,7 +32,7 @@ const AllProjects = () => {
                 </div>
 
                 {/* Portfolio Grid */}
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {filtered.map(pro => (
                         <div key={pro.id} className = "relative cursor-pointer group overflow-hidden bg-neutral-900 rounded-xl">
                         

@@ -102,7 +102,7 @@ const Service = () => {
           >
             {services.map((item) => (
               <SwiperSlide key={item.id}>
-                <div className="bg-[#fefeff] hover:shadow-2xl  rounded-2xl p-6 text-center shadow-lg hover:scale-110 transition duration-300 h-full">
+                <div className="bg-[#fefeff] hover:shadow-2xl  rounded-2xl p-6 text-center shadow-lg hover:scale-110 transition duration-300 h-70 border border-amber-600/60">
                   <div className="w-12 h-12 mx-auto mb-4 rounded-full border border-amber-600 flex items-center justify-center  text-xl">
                     {item.icon}
                   </div>
@@ -112,12 +112,12 @@ const Service = () => {
                   </h3>
 
                   <p className="text-gray-400 text-sm mb-6">
-                    {item.desc.slice(0,40)}
+                    {item.desc}
                   </p>
 
-                  <button className="border btnDsing px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
+                  {/* <button className="border btnDsing px-4 py-2 rounded-full text-sm hover:bg-white hover:text-black transition">
                     View more
-                  </button>
+                  </button> */}
                 </div>
               </SwiperSlide>
             ))}

@@ -37,13 +37,13 @@ const saira = Saira({
 const About = () => {
     return (
         <div>
-            <div className='h-[70vh] relative'>
+            <div className=' relative'>
                 <span className='text-[150px] transform top-[30%] left-[30%] fixed  block text-gray-600/5'>ABOUT</span>
-                <div className='sm:grid grid-cols-2 w-10/12 mx-auto justify-around items-center'>
+                <div className='md:grid grid-cols-2 w-10/12 mx-auto justify-around items-center'>
                     <div>
-                        <p className='text-3xl'>Hello There 👋 I’m <span> </span></p>
+                        <p className='sm:text-3xl'>Hello There 👋 I’m <span> </span></p>
                         <p className={saira.className}>
-                            <span className='text-[50px] flex gap-x-3 '>
+                            <span className='text-[20px] sm:text-[50px] flex gap-x-3 '>
                         <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
@@ -73,7 +73,7 @@ const About = () => {
             <div className='w-10/12 mx-auto  mt-10'>
                 <div className='flex flex-col justify-center items-center'>
                     <p className='text-4xl flex flex-col items-center  gap-y-2 relative'>Technical Skill <HiArrowDown className='text-amber-600 animate-bounce' /><span className='w-10 absolute bottom-0 border-b border-amber-600'></span></p>
-                    <div className='sm:grid grid-cols-5  gap-x-6  mt-10'>
+                    <div className='grid grid-cols-2 md:grid-cols-5  gap-x-6  mt-10'>
                         <div className='flex flex-col gap-y-2 justify-center items-center'>
                           
                             <FaJs className='text-3xl w-20 border h-20 border-amber-600 rounded-full p-2' />
