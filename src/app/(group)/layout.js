@@ -1,5 +1,6 @@
 import Nav from "../Nav";
 
+
 export default function GroupLayout ({children}){
     return(
         <>

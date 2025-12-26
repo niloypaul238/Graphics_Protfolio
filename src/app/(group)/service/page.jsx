@@ -3,11 +3,15 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import {Saira ,Nunito} from 'next/font/google';
-
 import "swiper/css";
 import "swiper/css/navigation";
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 import Teams from "../Team";
+
+
+
+
+
 
 const saira = Saira({
   subsets: ['latin'],

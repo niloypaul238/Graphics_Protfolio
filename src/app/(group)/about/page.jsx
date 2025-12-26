@@ -9,7 +9,6 @@ import { RiNextjsLine } from "react-icons/ri";
 import { HiArrowDown } from "react-icons/hi2";
 import { TypeAnimation } from 'react-type-animation';
 
-
 const experince = [
     {
         id: 1,
