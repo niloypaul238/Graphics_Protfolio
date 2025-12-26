@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnDsing {
+  background-color: #fd6e0a;
+  border: 2px solid transparent;
+  color: #ffffff;
+  padding: 7px 25px;
+  cursor: pointer;
+  border: 1px solid #fd6e0a;
+  border-radius: 50px;
+  transition: .2s ease;
+}
+.btnDsing2 {
+  color: #fd6e0a;
+  padding: 7px 25px;
+  cursor: pointer;
+  border: 1px solid #fd6e0a;
+  border-radius: 50px;
+  transition: .2s ease;
+}
+
+
+.btnDsing:hover {
+  background: white;
+  color: #fd6e0a;
+}
+
+.fontUniquifier {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.social {
+  background: white;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px black;
+  font-size: 40px;
+  padding: 3px;
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.social:hover {
+  scale: calc(1.2);
+}

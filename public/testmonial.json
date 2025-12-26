@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Uddin",
+    "role": "CEO",
+    "company": "TechNova Solutions",
+    "rating": 5,
+    "review": "The development team delivered our project on time with excellent code quality. Communication was smooth and professional throughout.",
+    "image": "https://i.ibb.co.com/1fXHjMC8/images-2.jpg",
+    "location": "Dhaka, Bangladesh",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Williams",
+    "role": "Product Manager",
+    "company": "BrightApps Ltd",
+    "rating": 4.8,
+    "review": "Outstanding frontend and backend development skills. Our application performance improved significantly after their work.",
+    "image": "https://i.ibb.co.com/Hf6Fvw6J/images-1.jpg",
+    "location": "London, UK",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Amit Sharma",
+    "role": "Founder",
+    "company": "Startup Hub",
+    "rating": 5,
+    "review": "Very reliable developers. They understood our requirements clearly and provided valuable technical suggestions.",
+    "image": "https://i.ibb.co.com/YB0Q8nDg/download.jpg",
+    "location": "Delhi, India",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "John Peterson",
+    "role": "CTO",
+    "company": "CloudCore Inc",
+    "rating": 4.7,
+    "review": "Clean architecture, scalable code, and great support even after project delivery. Highly recommended.",
+    "image": "https://i.ibb.co.com/23NxQYsH/images.jpg",
+    "location": "New York, USA",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Fatema Akter",
+    "role": "Operations Manager",
+    "company": "Digital Path",
+    "rating": 4.9,
+    "review": "They built a robust and user-friendly system for our business. The UI/UX and performance are top-notch.",
+    "image": "https://i.ibb.co.com/7tzZ8wZp/close-up-portrait-young-bearded-man-white-shirt-jacket-posing-camera-with-broad-smile-isolated-gray.avif",
+    "location": "Chattogram, Bangladesh",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "Michael Chen",
+    "role": "Co-Founder",
+    "company": "NextGen Soft",
+    "rating": 5,
+    "review": "Professional, fast, and detail-oriented development team. Our SaaS platform launched smoothly.",
+    "image": "https://i.ibb.co.com/XZDyKYx8/download-1.jpg",
+    "location": "Singapore",
+    "status": "active"
+  }
+]
