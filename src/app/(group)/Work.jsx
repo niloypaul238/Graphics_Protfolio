@@ -23,7 +23,7 @@ const Work = () => {
 
             <div className="w-full py-16 bg-white">
 
-                <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-6">
+                <div className="w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 px-6">
 
                     {/* Left div */}
                     <div>
@@ -60,29 +60,24 @@ const Work = () => {
                         </ul>
 
 
-                        {/* Button */}
-                        <button className="btnDsing mt-5">
-                            Read More
-                        </button>
+                       
                     </div>
 
 
                     {/* Right div */}
-                    <div className="grid grid-cols-2 gap-4">
-                        <div className='flex  justify-center items-center'>
-                            <Lottie style={{height:'100%'}}  animationData={webDeb}></Lottie>
+                    <div className="">
+                        <div className='grid grid-cols-2 w-full justify-end items-center'>
+                            <div></div>
+                            <Lottie style={{width:'100%'} }  animationData={webDeb}></Lottie>
                         </div>
 
 
                         {/* Stats */}
-                        <div className="col-span-2 mt-6">
-                            <div className="flex items-center gap-3 text-xl font-semibold text-gray-800">
+                        <div className="col-span-2 mt-6 text-end">
+                            <div className="flex items-center justify-end gap-3 text-xl font-semibold text-gray-800">
                                 Happy Clients <span className="text-purple-600">| 1234</span>
                             </div>
-                            <p className="text-gray-600 text-sm mt-1">
-                                Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam amet
-                                diam ipsum clita labore dolor duo clita.
-                            </p>
+                            
                         </div>
                         
                     </div>

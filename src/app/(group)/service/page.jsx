@@ -75,7 +75,7 @@ const Service = () => {
         <div className="max-w-7xl  mx-auto px-4">
 
           {/* Heading */}
-          <div className="text-center mb-14">
+          <div className="text-center pt-10 mb-14">
             <h2 className="text-4xl font-bold  mb-4">
             <span className={saira.className}> Our Services</span>
             </h2>

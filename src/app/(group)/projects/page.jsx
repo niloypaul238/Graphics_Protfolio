@@ -55,7 +55,7 @@ const Projects = () => {
     return (
         <section className="bg-[#f2fbf7]">
             <Work/>
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="w-10/12 mx-auto px-4">
 
                 <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-center">
 

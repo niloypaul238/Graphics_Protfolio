@@ -20,7 +20,7 @@ const Testimonial = () => {
     },[])
     return (
         <div>
-            <div className="max-w-7xl mx-auto mt-30 px-4">
+            <div className="w-10/12 mx-auto mt-30 ">
 
                 {/* Heading */}
                 <div className="text-center mb-14">
@@ -36,6 +36,7 @@ const Testimonial = () => {
 
                 {/* Slider */}
                 <Swiper
+                    style={{padding:'29px'}}
                     modules={[Navigation]}
                     navigation={{
                         nextEl: ".service-next",
@@ -55,12 +56,12 @@ const Testimonial = () => {
                                 <div className="w-12 h-15 mx-auto mb-4 rounded-full border border-amber-600 flex items-center justify-center  text-xl p-1">
                                     <img src={item.image}  className="w-full h-full object-cover rounded-full" alt="" />
                                 </div>
-                                <p className="my-1 text-amber-600"><span className={saira.className}>{item.name} <span className="text-[9px]">( {item.role})</span></span></p>
+                                <p className="my-1 text-amber-600 text-xl"><span className={saira.className}>{item.name} </span></p>
                                 <h3 className=" w-full  absolute top-0 left-1/2 -translate-x-1/2  text-center text-gray-400/30  text-lg font-semibold mb-3 ">
                                     {item.company}<br/>
                                 </h3>
 
-                                <p className=" text-sm mb-6">
+                                <p className=" text-sm text-gray-500 mb-6">
                                     {item.review}
                                 </p>
                             </div>

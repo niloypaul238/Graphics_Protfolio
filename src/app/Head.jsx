@@ -20,7 +20,7 @@ const Head = () => {
         <div>
             <div className='pt-12 md:pt-0'>
                 <div className='bg-[url(https://i.ibb.co.com/99Jb9QvL/578-5782721-technology-background-white-png-tech-background-image-for.png)] w-full   text-black'>
-                    <div className='bg-[#fffffff8]  w-fulll h-[100vh]   '>
+                    <div className='bg-[#fffffff8]  w-fulll h-[90vh]   '>
                         <div className='w-10/12 md:flex h-full  justify-around items-center relative mx-auto'>
                             <div className='flex flex-col gap-y-4'>
                                 <div className='flex items-end'>
@@ -32,30 +32,30 @@ const Head = () => {
                                 <p className='text-gray-500'>I am a frontend developer based in Bangladesh, I will help you build beautiful websites your users will love.  </p>
                                 <button className='btnDsing2 flex items-center gap-x-2 w-60 justify-center'>See Resume <GoArrowRight /></button>
                             </div>
-                            <div>
-                                <img className='h-100 float-end animateBounce' src="home-right.png" alt="" />
-                            </div>
+                            <div >
+                            <Lottie style={{ height: "250px" }} animationData={Develop}></Lottie>
+                        </div>
                         </div>
 
                     </div>
                 </div>
 
 
-                <div className='bg-[url(https://i.ibb.co.com/99Jb9QvL/578-5782721-technology-background-white-png-tech-background-image-for.png)] w-full h-full mt-0 flex flex-col justify-center items-center text-black'>
+                {/* <div className='bg-[url(https://i.ibb.co.com/99Jb9QvL/578-5782721-technology-background-white-png-tech-background-image-for.png)] w-full h-full mt-0 flex flex-col justify-center items-center text-black'>
 
                     <div className='pt-10 md:pt-0 bg-[#fffffff5] h-full w-full flex leading-12 justify-center items-center relative flex-col'>
                         <div className='h-50 w-50 left-0 top-0 absolute bg-amber-500/50 z-10 rounded-full blur-3xl'></div>
                         <p className='text-black text-[40px] md:text-[90px] font-uniquifier  relative'><span className='tracking-[4px]'>GRAPHICS </span><span className='absolute top-6 text-sm leading-3.5 text-[#fd6e0a]'>BOX</span></p>
                         <p className='text-gray-600  '>Create fast & powerful websites for Protfolio !</p>
-                        <div >
+                         <div >
                             <Lottie style={{ height: "250px" }} animationData={Develop}></Lottie>
-                        </div>
+                        </div> 
                     </div>
 
-                </div>
+                </div> */}
 
                 <div className='w-10/12 mx-auto '>
-                    <div className='grid grid-cols-1 mt-14 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-4'>
+                    <div className='grid grid-cols-1 mt-0 sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-4'>
                         <div className='flex border rounded md:border-0 border-amber-600 py-4 flex-col gap-y-1.5 justify-center items-center'>
                             <img src="admin.svg" className='mb-2' alt="" />
                             <p className='text-5xl font-uniquifier'>434</p>
@@ -74,10 +74,10 @@ const Head = () => {
                     </div>
                 </div>
 
-                <div className='sm:grid w-10/12 mx-auto grid-cols-2 mt-30 md:mt-10 items-center justify-between '>
+                <div className='sm:grid w-10/12 mx-auto grid-cols-2 md:gap-x-6 mt-30 md:mt-10 items-center justify-between '>
                     <div>
-                        <p className='text-2xl md:text-5xl'>Build amazing websites and landing pages with ease</p>
-                        <button className='btnDsing mt-6'>Learn More ...</button>
+                        <p className='text-2xl md:text-4xl uppercase'>Build amazing websites and landing pages with ease ....</p>
+                        
                     </div>
                     {/* <img src="hero-app_development_02.svg" className='h-70 w-full' alt="" /> */}
                     <Lottie animationData={Developer1}></Lottie>

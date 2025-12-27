@@ -14,8 +14,8 @@ const AllProjects = () => {
 
 
     return (
-        <div>
-            <div className="bg-black min-h-screen text-white px-6 py-14">
+        <div className='bg-black'>
+            <div className=" w-10/12 mx-auto text-white px-6 py-14">
 
                 {/* Filter Buttons */}
                 <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 mb-12 text-sm uppercase tracking-widest">
