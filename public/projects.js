@@ -5,13 +5,15 @@ export const projects = [
     category: "WEB DESIGN",
     tag: "Web/App, Branding",
     image: "https://i.ibb.co.com/RGK8C76g/images-3.jpg",
+    src:''
   },
   {
     id: 2,
-    title: "AZA Social App",
-    category: "MOBILE APP",
-    tag: "Web/App",
-    image: "https://i.ibb.co.com/YTJkRHrp/images.jpg",
+    title: "E-shop",
+    category: "WEB DESIGN",
+    tag: "Web/App E commerce",
+    image: "https://i.ibb.co.com/SDYQ7ysr/Brown-Website-Launch-Announcement-Facebook-Post.jpg",
+    src:'https://grocery-e-shop.vercel.app/'
   },
   {
     id: 3,
@@ -19,12 +21,14 @@ export const projects = [
     category: "BRANDING",
     tag: "Web/App",
     image: "https://i.ibb.co.com/hJqZPJh8/images-1.jpg",
+    src:''
   },
   {
-    id: 4,
-    title: "Motion Studio",
-    category: "MOTION",
-    tag: "Animation",
-    image: "https://i.ibb.co.com/G4Jp2Gsf/images-2.jpg",
-  },
+    id:4,
+    title: "Admin Panel",
+    category: "WEB DESIGN",
+    tag: "Web/App",
+    image: "https://i.ibb.co.com/VYfFhBvG/New-Website-Blue-Mockup-Instagram-Laptop.png",
+    src:'https://spectacular-croquembouche-945fd8.netlify.app/'
+  }
 ];

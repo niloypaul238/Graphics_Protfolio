@@ -22,9 +22,9 @@ const Head = () => {
                 <div className='bg-[url(https://i.ibb.co.com/99Jb9QvL/578-5782721-technology-background-white-png-tech-background-image-for.png)] w-full   text-black'>
                     <div className='bg-[#fffffff8]  w-fulll h-[90vh]   '>
                         <div className='w-10/12 md:flex h-full  justify-around items-center relative mx-auto'>
-                            <div className='flex flex-col gap-y-4'>
+                            <div className='flex flex-col gap-y-2'>
                                 <div className='flex items-end'>
-                                    <span className='text-2xl md:text-4xl'> <span className={nuniton.className}>HELLO I AM</span></span><p className='h-[2px] w-60 bg-gray-700 hidden md:block'></p>
+                                    <span className='text-2xl '> <span className={nuniton.className}>HELLO I AM</span></span>
                                 </div>
 
                                 <p className={ saira.className } ><span className='text-5xl'><span className='text-[#fd6e0a]'>NILOY PAUL</span></span></p>

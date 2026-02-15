@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { projects } from '../../../public/projects';
+import Link from 'next/link';
 
 
 const AllProjects = () => {
@@ -34,18 +35,18 @@ const AllProjects = () => {
                 {/* Portfolio Grid */}
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
                     {filtered.map(pro => (
-                        <div key={pro.id} className = "relative cursor-pointer group overflow-hidden bg-neutral-900 rounded-xl">
-                        
-                        {/* Image */ }
-                        < img src = { pro.image } className = "w-full h-[260px] object-cover transition-transform duration-700 group-hover:scale-110" />
+                        <Link href={pro.src} key={pro.id} className="relative cursor-pointer group overflow-hidden bg-neutral-900 rounded-xl">
 
-                        {/* Overlay */ }
-                        < div className = "absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-end p-6" >
+                            {/* Image */}
+                            < img src={pro.image} className="w-full h-[260px] object-cover transition-transform duration-700 group-hover:scale-110" />
+
+                            {/* Overlay */}
+                            < div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-end p-6" >
                                 <h3 className="text-xl font-semibold"></h3>
-                            <p className="text-sm text-gray-300 mt-1"> {pro.tag}</p>
-                        </div>
-                        </div>
-                ))}
+                                <p className="text-sm text-gray-300 mt-1"> {pro.tag}</p>
+                            </div>
+                        </Link>
+                    ))}
                 </div>
             </div>
         </div>

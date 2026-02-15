@@ -2,9 +2,7 @@ import Head from "./Head";
 import Nav from "./Nav";
 import Testimonial from "./Testimonial";
 
-export const metadata = {
-  title: "Home"
-}
+
 
 export default function Home() {
   return (
