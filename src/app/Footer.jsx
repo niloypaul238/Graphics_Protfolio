@@ -21,11 +21,11 @@ const Footer = () => {
                                     Find us on any of these platforms, we respond 1-2 business days.
                                 </h5>
                                 <div className="mt-6 flex gap-x-4 lg:mb-0 mb-6">
-                                    <CiFacebook className="social hover:text-blue-500" />
+                                    <Link href={"https://www.facebook.com/niloypaul685"}><CiFacebook className="social hover:text-blue-500" /></Link>
 
-                                    <AiOutlineYoutube className="social hover:text-red-500" />
+                                    {/* <AiOutlineYoutube className="social hover:text-red-500" /> */}
 
-                                    <FaGithub className="social hover:text-gray-500" />
+                                    <Link href={"https://github.com/niloypaul238"}> <FaGithub  className="social hover:text-gray-500" /></Link>
 
                                     <Link href={'https://www.upwork.com/freelancers/~01f7f7dbd23e44718c?viewMode=1'}><FaSquareUpwork  className="social hover:text-green-500"  /></Link>
                                     
@@ -45,7 +45,7 @@ const Footer = () => {
                                                 <a className="cursor-pointer hover:text-[#fd6e0a] hover:ml-2 transition-all duration-150  block pb-2 text-sm" >Blog</a>
                                             </li>
                                             <li>
-                                                <a className="cursor-pointer hover:text-[#fd6e0a] hover:ml-2 transition-all duration-150  block pb-2 text-sm" >Github</a>
+                                                <a href='https://github.com/niloypaul238' target='_' className="cursor-pointer hover:text-[#fd6e0a] hover:ml-2 transition-all duration-150  block pb-2 text-sm" >Github</a>
                                             </li>
                                             <li>
                                                 <a className="cursor-pointer hover:text-[#fd6e0a] hover:ml-2 transition-all duration-150  block pb-2 text-sm" >Free Products</a>

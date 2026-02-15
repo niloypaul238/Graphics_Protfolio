@@ -5,6 +5,7 @@ import Developer1 from '../../public/ani.json'
 import Develop from '../../public/Developer.json'
 import {Saira ,Nunito} from 'next/font/google';
 import { GoArrowRight } from "react-icons/go";
+import Link from 'next/link';
 
 
 const saira = Saira({
@@ -30,7 +31,8 @@ const Head = () => {
                                 <p className={ saira.className } ><span className='text-5xl'><span className='text-[#fd6e0a]'>NILOY PAUL</span></span></p>
                                 <p className='text-2xl '>FRONTEND DEVELOPER </p>
                                 <p className='text-gray-500'>I am a frontend developer based in Bangladesh, I will help you build beautiful websites your users will love.  </p>
-                                <button className='btnDsing2 flex items-center gap-x-2 w-60 justify-center'>See Resume <GoArrowRight /></button>
+                                <Link href="https://i.ibb.co.com/vCWmDTPk/Professional-Modern-CV-Resume.jpg" target='_'><button className='btnDsing2 flex items-center gap-x-2 w-60 justify-center'>See Resume <GoArrowRight /></button></Link>
+                                
                             </div>
                             <div >
                             <Lottie style={{ height: "250px" }} animationData={Develop}></Lottie>
