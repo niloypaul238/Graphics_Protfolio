@@ -20,5 +20,16 @@
     "image": "https://i.ibb.co.com/Hf6Fvw6J/images-1.jpg",
     "location": "Dhaka, Bangladesh",
     "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Amit Sharma",
+    "role": "Founder",
+    "company": "Startup Hub",
+    "rating": 5,
+    "review": "Very reliable developers. They understood our requirements clearly and provided valuable technical suggestions.",
+    "image": "https://i.ibb.co.com/YB0Q8nDg/download.jpg",
+    "location": "Dhaka, Bangladesh",
+    "status": "active"
   }
 ]
