@@ -46,7 +46,7 @@ const About = () => {
             <div className='w-10/12 mx-auto  mt-10'>
                 <div className='flex flex-col justify-center items-center'>
                     <p className='text-4xl flex flex-col items-center  gap-y-2 relative'>Technical Skill <HiArrowDown className='text-amber-600 animate-bounce' /><span className='w-10 absolute bottom-0 border-b border-amber-600'></span></p>
-                    <div className='grid grid-cols-2 md:grid-cols-5  gap-x-6  mt-10'>
+                    <div className='sm:grid grid-cols-2 md:grid-cols-4  gap-x-6  mt-10'>
                         <div className='flex flex-col gap-y-2 justify-center items-center'>
                           
                             <FaJs className='text-3xl w-20 border h-20 border-amber-600 rounded-full p-2' />
@@ -62,11 +62,7 @@ const About = () => {
                             <span className={saira.className}>Next JS</span>
                             <span ></span>
                         </div>
-                        <div className='flex flex-col gap-y-2 justify-center items-center'>
-                            <FaFigma className='text-3xl w-20 border h-20 border-amber-600 rounded-full p-2' />
-                            <span className={saira.className}>Figma</span>
-                            <span ></span>
-                        </div>
+                        
                         <div className='flex flex-col gap-y-2 justify-center items-center'>
                             <SiAdobephotoshop className='text-3xl w-20 border h-20 border-amber-600 rounded-full p-2' />
                             <span className={saira.className}>Adove Photoshop</span>
