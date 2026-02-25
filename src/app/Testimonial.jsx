@@ -15,6 +15,7 @@ const saira = Saira({
 const Testimonial = () => {
     const [testimonial, setTestimonial] = useState([])
     const swiperslide = {
+        padding:'0px 10px',
         width:'100%',
         display: "flex",
         justifyContent: "center",
@@ -50,11 +51,11 @@ return (
                         prevEl: ".service-prev",
                     }}
                     loop={true}
-                    spaceBetween={30}
+                    spaceBetween={40}
                     breakpoints={{
                         320: { slidesPerView: 1 },
                         640: { slidesPerView: 2 },
-                        1024: { slidesPerView: 4 },
+                        1024: { slidesPerView: 3 },
                     }}
                 >
                     {testimonial.map((item) => (
