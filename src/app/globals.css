@@ -62,3 +62,8 @@ body {
 .social:hover {
   scale: calc(1.2);
 }
+
+
+.swiper-wrapper{
+  width: "0%";
+}

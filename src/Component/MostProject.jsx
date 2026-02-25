@@ -30,6 +30,16 @@ const courses = [
         rating: 5,
         reviews: 50,
         src:'https://spectacular-croquembouche-945fd8.netlify.app/'
+    },
+    {
+        id:3,
+        tag:'Next js',
+        title:"E commerce ",
+        image:"https://i.ibb.co.com/YMYFTn7/New-Website-Blue-Mockup-Instagram-Laptop-1.png",
+        price: 500,
+        rating: 5,
+        reviews: 50,
+        src:'https://onlineshop-omega.vercel.app/'
     }
 ];
 
